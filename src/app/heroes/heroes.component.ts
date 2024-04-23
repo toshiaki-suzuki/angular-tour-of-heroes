@@ -1,12 +1,15 @@
 import { Component } from '@angular/core';
 import type { Hero } from '../hero';
 import { UpperCasePipe } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-heroes',
   standalone: true,
   imports: [
-    UpperCasePipe],
+    UpperCasePipe,
+    FormsModule
+  ],
   templateUrl: './heroes.component.html',
   styleUrl: './heroes.component.css'
 })

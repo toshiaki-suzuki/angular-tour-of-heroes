@@ -7,7 +7,7 @@ import { HeroesComponent } from './heroes/heroes.component';
   standalone: true,
   imports: [
     RouterOutlet,
-    HeroesComponent
+    HeroesComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
